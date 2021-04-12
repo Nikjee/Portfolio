@@ -1,0 +1,112 @@
+:root {
+  --bg-opacity: rgba(255,255,255,0.5);
+  --bg-black-900:#000000;
+  --bg-black-100:#dddddd;
+  --bg-black-50: #eff0f4;
+  --text-black-900: #000000;
+  --text-black-700: #555555;
+  --text-black-600: #666666;
+  --text-black-300: #bbbbbb;
+  --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+  --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+  --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+}
+
+.style__switcher {
+  position: fixed;
+  right: 0;
+  top: 77px;
+  padding: 15px;
+  width: 200px;
+  z-index: 101;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.style__switcher.open {
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+}
+
+.style__switcher h4 {
+  margin: 0 0 10px;
+  color: var(--text-black-700);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.style__switcher .s-icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--text-black-900);
+  right: 100%;
+  margin-right: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.style__switcher .s-icon i {
+  line-height: 40px;
+}
+
+.style__switcher .s-icon:after {
+  border-radius: 50%;
+}
+
+.style__switcher .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.style__switcher .colors span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.style__switcher .colors__color-1 {
+  background-color: #fb839e;
+}
+
+.style__switcher .colors__color-2 {
+  background-color: #ec9412;
+}
+
+.style__switcher .colors__color-3 {
+  background-color: #1fc586;
+}
+
+.style__switcher .colors__color-4 {
+  background-color: #2eb1ed;
+}
+
+.style__switcher .colors__color-5 {
+  background-color: #cc3a3b;
+}
+
+.style__toggler {
+  top: 0;
+}
+
+.style__day-night {
+  top: 55px;
+}
+/*# sourceMappingURL=style-switcher.css.map */

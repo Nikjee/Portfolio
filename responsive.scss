@@ -1,0 +1,133 @@
+@media(max-width: 991px){
+    .service{
+        &__item{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    .portfolio{
+        &__item{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+@media(max-width: 767px){
+    .home-section{
+        &__text,&__img{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        &__text{
+            order: 2;
+            text-align: center;
+        }
+        .full-screen{
+            padding: 100px 0;
+        }
+        &__img-box{
+            margin-bottom: 40px;
+            max-width: 350px;
+        }
+    }
+    .effect-3{
+        margin-left: -60px;
+    }
+    .effect-4{
+        left: 15%;
+    }
+    .effect-5{
+        right: 4%;
+    }
+    .about{
+        &__info,&__img,&__skills-item{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        &__img{
+            margin-bottom: 30px;
+        }
+        .timeline{
+            &:before{
+                left: 35px;
+            }
+            &__item{
+                &:nth-child(odd){
+                    padding-right: 15px;
+                    text-align: left;
+                    padding-left: 75px;
+                    .icon{
+                        right: auto;
+                        left: -60px;
+                    }
+                    .timeline__item-inner:before{
+                        left: 30px;
+                        right: auto;
+                    }
+                }
+                &:nth-child(even){
+                    padding-left: 75px;  
+                    .icon{
+                        left: -60px;
+                    }
+                }
+                margin-bottom: 40px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            
+        }
+    }
+    .service{
+        &__item{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .portfolio{
+        &__item{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .portfolio-popup{
+        .pp{
+            .details{
+                &__description,&__info {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .contact{
+        &__item{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        &__submit-btn{
+            text-align: center;
+        }
+        .form{
+            &__item{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+   
+}
+
+@media(max-width: 574px){
+    .home-section{
+        &__img-box{
+            max-width: 260px;
+        }
+        &__text{
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+}

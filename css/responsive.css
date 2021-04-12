@@ -1,0 +1,125 @@
+@media (max-width: 991px) {
+  .service__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .portfolio__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-section__text, .home-section__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home-section__text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+  }
+  .home-section .full-screen {
+    padding: 100px 0;
+  }
+  .home-section__img-box {
+    margin-bottom: 40px;
+    max-width: 350px;
+  }
+  .effect-3 {
+    margin-left: -60px;
+  }
+  .effect-4 {
+    left: 15%;
+  }
+  .effect-5 {
+    right: 4%;
+  }
+  .about__info, .about__img, .about__skills-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about__img {
+    margin-bottom: 30px;
+  }
+  .about .timeline:before {
+    left: 35px;
+  }
+  .about .timeline__item {
+    margin-bottom: 40px;
+  }
+  .about .timeline__item:nth-child(odd) {
+    padding-right: 15px;
+    text-align: left;
+    padding-left: 75px;
+  }
+  .about .timeline__item:nth-child(odd) .icon {
+    right: auto;
+    left: -60px;
+  }
+  .about .timeline__item:nth-child(odd) .timeline__item-inner:before {
+    left: 30px;
+    right: auto;
+  }
+  .about .timeline__item:nth-child(even) {
+    padding-left: 75px;
+  }
+  .about .timeline__item:nth-child(even) .icon {
+    left: -60px;
+  }
+  .about .timeline__item:last-child {
+    margin-bottom: 0;
+  }
+  .service__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .portfolio__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .portfolio-popup .pp .details__description, .portfolio-popup .pp .details__info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact__submit-btn {
+    text-align: center;
+  }
+  .contact .form__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 574px) {
+  .home-section__img-box {
+    max-width: 260px;
+  }
+  .home-section__text h2 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
