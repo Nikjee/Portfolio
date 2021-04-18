@@ -564,6 +564,7 @@ img {
 .home-section__text p {
   font-size: 18px;
   text-transform: capitalize;
+  color: var(--text-black-600);
   margin: 0;
 }
 
